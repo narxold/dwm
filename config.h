@@ -211,7 +211,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,		XK_e,		spawn,	   SHCMD("bash ~/.config/dmenu/scripts/powermenu") },
 	{ MODKEY,			XK_g,		spawn,	   SHCMD("st -e ranger") },
 	{ MODKEY|ShiftMask, XK_g, spawn, SHCMD("pcmanfm") },
-	{ MODKEY,			XK_Print,	spawn,	   SHCMD("flameshot gui") },
+	{ 0,			XK_Print,	spawn,	   SHCMD("flameshot gui") },
 	{ 0, XF86XK_MonBrightnessUp,	spawn,		SHCMD("brightnessctl s +5") },
 	{ 0, XF86XK_MonBrightnessDown,	spawn,		SHCMD("brightnessctl s 5-") },
 	{ 0, XF86XK_AudioLowerVolume,   spawn,   SHCMD("pamixer -d 5") }, 
