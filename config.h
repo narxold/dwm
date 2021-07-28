@@ -207,7 +207,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,		XK_bracketright,   spawn,   SHCMD("playerctl next") }, 
 	{ MODKEY|ShiftMask,		XK_bracketleft,   spawn,   SHCMD("playerctl previous") }, 
 	{ MODKEY|ShiftMask,		XK_c,		spawn,	   SHCMD("clipmenu -i -fn JetbrainsMono:size=8.5 -nb '#202119' -nf '#bbbbbb' -sb '#3d3e2c' -sf '#eeeeee'") },
-	{ MODKEY|ShiftMask,		XK_d,		spawn,	   SHCMD("via") },
+	{ MODKEY|ShiftMask,		XK_v,		spawn,	   SHCMD("via") },
 	{ MODKEY|ShiftMask,		XK_e,		spawn,	   SHCMD("bash ~/.config/dmenu/scripts/powermenu") },
 	{ MODKEY,			XK_g,		spawn,	   SHCMD("st -e ranger") },
 	{ MODKEY|ShiftMask, XK_g, spawn, SHCMD("pcmanfm") },
@@ -217,6 +217,7 @@ static Key keys[] = {
 	{ 0, XF86XK_AudioLowerVolume,   spawn,   SHCMD("pamixer -d 5") }, 
 	{ 0, XF86XK_AudioRaiseVolume,   spawn,   SHCMD("pamixer -i 5") }, 
 	{ 0, XF86XK_AudioMute,   spawn,   SHCMD("pamixer -t ") }, 
+	{ MODKEY|ShiftMask,		XK_d,		spawn,	   SHCMD("bash ~/.config/dmenu/scripts/j4dmenu") },
 };
 
 /* button definitions */
