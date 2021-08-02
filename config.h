@@ -218,6 +218,7 @@ static Key keys[] = {
 	{ 0, XF86XK_AudioRaiseVolume,   spawn,   SHCMD("pamixer -i 5") }, 
 	{ 0, XF86XK_AudioMute,   spawn,   SHCMD("pamixer -t ") }, 
 	{ MODKEY|ShiftMask,		XK_d,		spawn,	   SHCMD("bash ~/.scripts/dmenu/j4dmenu") },
+	{ MODKEY,   XK_F12, spawn, SHCMD("bash ~/.scripts/dmenu/languagemenu") },
 };
 
 /* button definitions */
